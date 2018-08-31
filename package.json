@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "An MySQL based Amazon-like storefront",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "start": "node bamazonCustomer",
+    "test": "nodemon bamazonCustomer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaeed0/W12-MySQL.git"
+  },
+  "author": "Amaan Saeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asaeed0/W12-MySQL/issues"
+  },
+  "homepage": "https://github.com/asaeed0/W12-MySQL#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.2.0",
+    "mysql2": "^1.6.1"
+  }
+}
